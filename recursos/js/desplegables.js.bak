@@ -1,0 +1,21 @@
+let pestanaPrimero = document.getElementById('pestana-primero');
+let pestanaSegundo = document.getElementById('pestana-segundo');
+
+let cPaises = document.getElementById('contenido-paises');
+let cGrpaises = document.getElementById('contenido-grpaises');
+let cMundo = document.getElementById('contenido-mundo');
+
+let paisesAbierta = function() {
+  cPaises.style.display = 'flex';
+  cGrpaises.style.display = 'none';
+  cMundo.style.display = 'none';
+  
+  pPaises.style.backgroundColor = '#f5f9fb';
+  pPaises.style.color = '#00bcd4';
+  
+  pGrpaises.style.backgroundColor = '#00bcd4';
+  pGrpaises.style.color = '#f5f9fb';
+  
+  pMundo.style.backgroundColor = '#00bcd4';
+  pMundo.style.color = '#f5f9fb';
+};

@@ -20,7 +20,7 @@ let psegundo = document.getElementById("pestana-segundo");
 let primeroAbierta = function() {
 	
   cprimero.style.display = 'flex';
-  csegundo.style.display = 'none';
+  csegundo.style.display = 'hidden';
   
   pprimero.style.backgroundColor = '#cc0000';
   pprimero.style.color = 'white';
@@ -32,6 +32,9 @@ let primeroAbierta = function() {
 for (j = 0; j < items.length; j++){
 	
 	let item = items[j].toString();
+	
+	cprimero.innerHTML = '';
+	csegundo.innerHTML = '';
 	
 		sliders.push(`
 	<div class="producto" id="producto${id[j]}">
@@ -83,7 +86,7 @@ for (k = 1; k <= items.length; k++){
 pprimero.addEventListener('click', primeroAbierta); 
 
 let segundoAbierta = function() {
-  cprimero.style.display = 'none';
+  cprimero.style.display = 'hidden';
   csegundo.style.display = 'flex';
   
   pprimero.style.backgroundColor = '#cb9595';
@@ -91,11 +94,12 @@ let segundoAbierta = function() {
   
   psegundo.style.backgroundColor = '#cc0000';
   psegundo.style.color = 'white';
-  
-  cprimero.innerHTML = '';
-  csegundo.innerHTML = '';
 
 for (l = 0; l < items.length; l++){
+	
+		cprimero.innerHTML = '';
+	csegundo.innerHTML = '';
+	
 	let item2 = items[l].toString();
 	let valINE2 = val[l];
 	

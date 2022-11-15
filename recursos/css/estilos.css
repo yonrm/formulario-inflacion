@@ -13,6 +13,7 @@ body{
 
 header{
 	text-align: center;
+	margin: 1rem;
 }
 
 #logo{
@@ -170,5 +171,9 @@ label{
 	label{
 		font-size: 1.2rem;
 	}
+	
+	header{
+	font-size: 0.8rem;
+}
 	
 }

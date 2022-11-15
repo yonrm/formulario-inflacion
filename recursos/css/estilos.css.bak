@@ -13,6 +13,8 @@ body{
 
 header{
 	text-align: center;
+	margin: 1rem;
+	font-size: 0.8rem;
 }
 
 #logo{
@@ -160,12 +162,6 @@ label{
 	
 	.consulta{
 	width: 20%;
-	}
-	
-	.pestana{
-		padding-bottom: 2rem;
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
 	}
 	
 	
