@@ -11,8 +11,8 @@
 		<h2>¿Cuánto ha aumentado el precio de los productos desde el año pasado?</h2>
 	</header>
 	<div id="desplegable">
-		<div class="pestana" id="pestana-primero">Cuánto se<br>ha incrementado</div>
-		<div class="pestana" id="pestana-segundo">Cuánto<br>costaba antes</div>
+		<div class="pestana" id="pestana-primero">Cuánto se ha incrementado</div>
+		<div class="pestana" id="pestana-segundo">Cuánto costaba antes</div>
 	</div>
 	<main>
 	<form id="cuantoIncremento">

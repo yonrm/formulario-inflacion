@@ -127,13 +127,15 @@ label{
 
 .pestana{
 	width: 100%;
+	height: 100%;
 	background-color: #cc0000;
 	color: white;
 	text-align: center;
 	border: 0.001rem white solid;
-	padding: 0.5rem 0rem 0.5rem 0rem;
+	padding: 0.5rem 0rem 1rem 0rem;
 	cursor: pointer;
 	transition: 100ms linear;
+	font-size: 1.2 rem;
 }
 
 .pestana:hover{
@@ -144,7 +146,7 @@ label{
 	width: 100%;
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 	html{
 		font-size: 18px;
 	}
@@ -152,5 +154,21 @@ label{
 	font-weight: bold;
 	font-size: 1rem;
 }
+	#previa{
+		display: none;
+	}
+	
+	.consulta{
+	width: 20%;
+	}
+	
+	
+	.producto{
+		padding-top: 2rem;
+	}
+	
+	label{
+		font-size: 1.2rem;
+	}
 	
 }
